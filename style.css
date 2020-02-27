@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.navBar-1 {
+  height: 100vh;
+  display: flex;
+  /* justify-content: space-between; */
+  /* flex-direction: column; */
+  background: sandybrown;
+  /* overflow: hidden; */
+  cursor: pointer;
+  /* flex-wrap: wrap; */
+ 
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* justify-content: space-between; */
+  color: white;
+  font-family: 'Bebas Neue';
+  font-size: 30px;
+  height: 150px;
+  /* flex-basis: 150px; */
+  width: 150px;
+  
+  
+}
+
+.box1 {
+  background: red;
+  box-shadow: 5px 5px black;
+  
+}
+
+.box1:active {
+  box-shadow: 2px 2px black;
+}
+
+
+
+.box2 {
+  background: green;
+  box-shadow: 5px 5px black;
+}
+
+.box2:active {
+  box-shadow: 2px 2px black;
+}
+
+
+
+.box3 {
+  background: blue;
+  box-shadow: 5px 5px black;
+  /* align-self: flex-end; */
+}
+
+.box3:active {
+  box-shadow: 2px 2px black;
+}
+
+.box4 {
+  background: indigo;
+  box-shadow: 5px 5px black;
+  /* align-self: center; */
+  /* justify-self: flex-start; */
+}
+
+.box4:active {
+  box-shadow: 2px 2px black;
+}
+
+.box5 {
+  background: rgb(245, 11, 253);
+  /* justify-items: center; */
+  margin-left: auto;
+  
+  
+}
